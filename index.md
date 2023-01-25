@@ -11,9 +11,11 @@ How to log into a course-specific account on ieng6
 
 Welcome to CSE 15L! This tutorial is going to show you how to install an account specific to the CSE 15L course account on ieng6, but could be generalized for other courses. 
 
-Visual Studio Code Upload:
+Installing VScode:
 
-The first step is going to be installing Visual Studio Code (VSC). Follow the link https://code.visualstudio.com/, and follow the instructions to download and install it on your computer. The directions may be different for Mac vs. Window users, but once it’s installed you should have the app. 
+The first step is going to be installing Visual Studio Code (VSC). Follow the link https://code.visualstudio.com/, and follow the instructions to download and install it on your computer. The directions may be different for Mac vs. Window users, but once it’s installed you should have the app. Once you have installed the app, it should show up in your applications folder and you can move it to your dock (as shown in the screenshot below), if you prefer.
+
+Once it is successfully downloaded, open the app. It should look similarly to the screenshot shown before. It may not have the folders on the side as the screenshot does, or be in a different color, but either will work.
 
 <img width="1404" alt="Screen Shot 2023-01-11 at 11 59 50 AM" src="https://user-images.githubusercontent.com/122484285/211909958-3c643b3e-ba82-4e50-9636-08de6228bd02.png">
 <img width="1440" alt="Screen Shot 2023-01-11 at 11 20 55 AM" src="https://user-images.githubusercontent.com/122484285/211910243-02cd6916-23f8-41e9-97ed-4029da5ecdd4.png">
