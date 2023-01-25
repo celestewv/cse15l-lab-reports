@@ -6,12 +6,13 @@ Celeste Walstrom-Vangor
 CSE 15L
 
 
-Blog Post 1:
-How to log into a course-specific account on ieng6
+# Blog Post 1:
+## How to log into a course-specific account on ieng6
 
 Welcome to CSE 15L! This tutorial is going to show you how to install an account specific to the CSE 15L course account on ieng6, but could be generalized for other courses. 
+______________________________________________________________________________________________________
 
-Installing VScode:
+## Installing VScode:
 
 The first step is going to be installing Visual Studio Code (VSC). Follow the link https://code.visualstudio.com/, and follow the instructions to download and install it on your computer. The directions may be different for Mac vs. Window users, but once it’s installed you should have the app. Once you have installed the app, it should show up in your applications folder and you can move it to your dock (as shown in the screenshot below), if you prefer.
 
@@ -22,6 +23,7 @@ Here is an example of a dock with VScode in it. Fifth from the left-end is the a
 
 <img width="1440" alt="Screen Shot 2023-01-11 at 11 20 55 AM" src="https://user-images.githubusercontent.com/122484285/211910243-02cd6916-23f8-41e9-97ed-4029da5ecdd4.png">
 To make sure you got the right version/correct app, here is what the app should look like if you open it (or something similar). If you're getting an error message reach out to one of your classmates, tutors, or TAs for assistance. 
+______________________________________________________________________________________________________
 
 Remotely Connecting:
 
@@ -46,6 +48,7 @@ Put yes. Then:
 <img width="567" alt="Screen Shot 2023-01-11 at 12 11 28 PM" src="https://user-images.githubusercontent.com/122484285/211910782-d7625c2f-f1a7-4d06-8046-9c59515b357f.png">
 
 Congratulations! Now your portable computer is connected to an individual computer in the CSE Basement. From now on your computer will be refered to as the _client_ and the basement computer as the _server_.
+______________________________________________________________________________________________________
 
 Trying Some Commands:
 
@@ -53,13 +56,15 @@ Now that we’re in, let’s try some awesome commands!
 
 Some important commands could be:
 Here are some specific useful commands to try:
+```
 cd ~
 cd
 ls -lat
 ls -a
-ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username
-cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
-cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+```
+`ls <directory>` where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username
+```cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/```
+```cat /home/linux/ieng6/cs15lwi23/public/hello.txt```
 
 
 Here’s what one example should look like:
