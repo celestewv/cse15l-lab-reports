@@ -1,7 +1,5 @@
 
-Link to my [website] 
-(https://celestewv.github.io/cse15l-lab-reports/)
-
+Link to my [Github Page]([url](https://celestewv.github.io/cse15l-lab-reports/))
 Celeste Walstrom-Vangor
 01/11/23
 CSE 15L
