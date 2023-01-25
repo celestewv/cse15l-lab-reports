@@ -25,7 +25,7 @@ To make sure you got the right version/correct app, here is what the app should 
 
 Remotely Connecting:
 
-Now we want to create an account/connect to our account so we can access the CSE 15L computer system from anywhere! So cool right?
+Now we want to create an account/connect to our account so we can access the CSE 15L computer system from anywhere! This is a skill that will come in hand for many jobs or other institutions. So cool right?
 
 The first step will be going to this link https://sdacs.ucsd.edu/~icc/index.php and finding out what your 2-4 letter unique code is. For example, it should look something like this: cs15lwi23xxx. If you know your password, you’re good to go, otherwise create a new one!
 
@@ -44,6 +44,8 @@ Put yes. Then:
 <img width="564" alt="Screen Shot 2023-01-11 at 12 11 16 PM" src="https://user-images.githubusercontent.com/122484285/211909953-28eed27d-59cd-49e1-b4a0-20c35034c041.png">
 
 <img width="567" alt="Screen Shot 2023-01-11 at 12 11 28 PM" src="https://user-images.githubusercontent.com/122484285/211910782-d7625c2f-f1a7-4d06-8046-9c59515b357f.png">
+
+Congratulations! Now your portable computer is connected to an individual computer in the CSE Basement. From now on your computer will be refered to as the _client_ and the basement computer as the _server_.
 
 Trying Some Commands:
 
