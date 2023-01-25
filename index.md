@@ -18,8 +18,10 @@ The first step is going to be installing Visual Studio Code (VSC). Follow the li
 Once it is successfully downloaded, open the app. It should look similarly to the screenshot shown before. It may not have the folders on the side as the screenshot does, or be in a different color, but either will work.
 
 <img width="1404" alt="Screen Shot 2023-01-11 at 11 59 50 AM" src="https://user-images.githubusercontent.com/122484285/211909958-3c643b3e-ba82-4e50-9636-08de6228bd02.png">
+Here is an example of a dock with VScode in it. Fifth from the left-end is the app.
+
 <img width="1440" alt="Screen Shot 2023-01-11 at 11 20 55 AM" src="https://user-images.githubusercontent.com/122484285/211910243-02cd6916-23f8-41e9-97ed-4029da5ecdd4.png">
-To make sure you got the right version/correct app, here is what the app should look like if you open it (or something similar).
+To make sure you got the right version/correct app, here is what the app should look like if you open it (or something similar). If you're getting an error message reach out to one of your classmates, tutors, or TAs for assistance. 
 
 Remotely Connecting:
 
