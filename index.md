@@ -32,14 +32,21 @@ Now we want to create an account/connect to our account so we can access the CSE
 The first step will be going to this link https://sdacs.ucsd.edu/~icc/index.php and finding out what your 2-4 letter unique code is. For example, it should look something like this: cs15lwi23xxx. If you know your password, you’re good to go, otherwise create a new one!
 
 Now let's open up our computer terminal and type in the following information:
+```
+ssh cs15lwi23aky@ieng6.ucsd.edu
+```
+<replay 'aky' with whatever your individual letters are>
+
 <img width="565" alt="Screen Shot 2023-01-11 at 12 06 08 PM" src="https://user-images.githubusercontent.com/122484285/211909954-37ed5dbb-fcb4-4b3b-909a-5f0c2ca59888.png">
 
 Replace the ‘aky’ with whatever letters follow your ‘cs15lwi23’.
 Next, enter your password. Don’t worry, it’s not supposed to show up as you type!
 
 Now you should get the following message:
-“The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established. RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec. Are you sure you want to continue connecting (yes/no/[fingerprint])? 
-Password:” 
+```
+The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established. RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec. Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+Password:
+```
 Put yes. Then:
 
 
