@@ -7,6 +7,7 @@ Link to my [website](https://celestewv.github.io/cse15l-lab-reports)
 <br> *Class:* CSE 15L 
 
 
+- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
 
 
 # Blog Post 1:
