@@ -3,8 +3,8 @@ Link to my [website](https://celestewv.github.io/cse15l-lab-reports)
 
 
 *Author:* Celeste Walstrom-Vangor 
-*Data Created:* 01/11/23 
-*Class:* CSE 15L 
+<br> *Data Created:* 01/11/23 
+<br> *Class:* CSE 15L 
 
 
 
