@@ -1,13 +1,12 @@
 
 Link to my [website](https://celestewv.github.io/cse15l-lab-reports)
 
-
+<span style="color: green">
 *Author:* Celeste Walstrom-Vangor 
 <br> *Data Created:* 01/11/23 
 <br> *Class:* CSE 15L 
+</span>
 
-
-- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
 
 
 # Blog Post 1:
