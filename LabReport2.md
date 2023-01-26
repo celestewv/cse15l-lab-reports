@@ -98,3 +98,5 @@ static int[] reversed(int[] arr) {
 ***
 
 ## Part 3
+### Something I learned in Lab week 2 or 3:
+I learned the brim of complexity of the coding behind URLs. I had never put any thought into what goes on behind the scenes in searching or changing from one page to another. But I am beginning to understand the coding that is behind changing the webpage based on the inputed URLs.
