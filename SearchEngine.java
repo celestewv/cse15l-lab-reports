@@ -1,6 +1,6 @@
 import java.io.IOException;
 import java.net.URI;
-import java.util.Arraylist;
+import java.util.ArrayList;
 
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
@@ -14,13 +14,14 @@ class Handler implements URLHandler {
         } else {
             System.out.println("Path: " + url.getPath());
             if (url.getPath().contains("/add-message")) {
-                String[] parameters = url.getQuery().split("s=");
-                if (parameters[0].equals(%s)) {
-                  for (int i = 0; i < strList.size(); i++){
-                    strList.add(%s + "\n");
-                  }
-                    num += Integer.parseInt(parameters[1]);
-                    return String.format("Number increased by %s! It's now %d", parameters[1], num);
+                String[] parameters = url.getQuery().split("=");
+                if (parameters[0].equals("s")) {
+                    strList.add(parameters[1] + "\n");
+                    String toReturn;
+                    for (int i = 0; i < strList.size(); i++) {
+                        toReturn += strList.get(i);
+                    }
+                    return toReturn;
                 }
             }
             return "404 Not Found!";
