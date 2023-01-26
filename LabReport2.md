@@ -44,9 +44,7 @@ However, with the bugs, the code returned the original inpu: { 1, 2, 3 }.
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for (int i = 0; i < arr.length; i++) {
-      // System.out.println("Old array element = " + arr[i]);
       newArray[i] = arr[arr.length - i - 1];
-      // System.out.println("New element = " + newArray[i]);
 
     }
     return newArray;
@@ -65,12 +63,38 @@ to produce the output { 50, 40, 30, 20, 10 }. We knew the basic code was debugge
 output.
 
 #### Symptom
+The symptom we can observe from the faulty code is that the code is not reversing the elements as we had expected
+it to. Once we debug the code, the symptom is no longer present in most regular inputs.
 Here is the JUnit Test failing with the input { 10, 20, 30, 40, 50, 60 } before the code is debugged.
 ![Image](junitss.png)
 
 Here is the JUnit Test passing with the same input as above now that code has been fixed.
 ![Image](passedjunitss.png)
 
+#### Bug 
+There were a couple of fixes that needed to be made in this code. The first one was that we were setting the original array ``` arr ``` equal to the ```newArray[arr.length - i - 1]```. Since the new array had nothing added to it, we were simply changing the orginal array's elements to 0. By reversing the ```arr``` with the ```newArray``` and returning the ```newArray``` we were able to debug the code. I would aldo recommend adding some error catching by adding if statments, but other than that, the code runs as expected.
+
+Buggy Code:
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+Debugged Code:
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for (int i = 0; i < arr.length; i++) {
+      newArray[i] = arr[arr.length - i - 1];
+
+    }
+    return newArray;
+  }
+```
 ***
 
 ## Part 3
