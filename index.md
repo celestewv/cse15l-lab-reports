@@ -31,7 +31,9 @@ Here is an example of a dock with VScode in it. Fifth from the left-end is the a
 <!--vscode image-->
 <img width="1440" alt="Screen Shot 2023-01-11 at 11 20 55 AM" src="https://user-images.githubusercontent.com/122484285/211910243-02cd6916-23f8-41e9-97ed-4029da5ecdd4.png">
 To make sure you got the right version/correct app, here is what the app should look like if you open it (or something similar). If you're getting an error message reach out to one of your classmates, tutors, or TAs for assistance.
+
 ****
+
 ## Remotely Connecting:
 
 Now we want to create an account/connect to our account so we can access the CSE 15L computer system from anywhere! This is a skill that will come in hand for many jobs or other institutions. So cool right?
