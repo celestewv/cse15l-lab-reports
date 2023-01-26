@@ -65,6 +65,7 @@ to produce the output { 50, 40, 30, 20, 10 }. We knew the basic code was debugge
 output.
 
 #### Symptom
+![Image](junitss.png)
 ***
 
 ## Part 3
