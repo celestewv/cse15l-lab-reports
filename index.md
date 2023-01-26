@@ -7,7 +7,7 @@ Link to my [website](https://celestewv.github.io/cse15l-lab-reports)
 <br> *Class:* CSE 15L 
 
 ```diff
-- This is a red colored line
+- This is a blue colored line
 + This is a green colored line
 @@ This is a purple colored line @@
 ```
