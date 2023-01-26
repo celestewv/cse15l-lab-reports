@@ -65,7 +65,12 @@ to produce the output { 50, 40, 30, 20, 10 }. We knew the basic code was debugge
 output.
 
 #### Symptom
+Here is the JUnit Test failing with the input { 10, 20, 30, 40, 50, 60 } before the code is debugged.
 ![Image](junitss.png)
+
+Here is the JUnit Test passing with the same input as above now that code has been fixed.
+![Image](passedjunitss.png)
+
 ***
 
 ## Part 3
