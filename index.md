@@ -12,7 +12,11 @@ Link to my [website](https://celestewv.github.io/cse15l-lab-reports)
 # Blog Post 1:
 ## How to Log into a Course-Specific Account on ```ieng6```
 
-Welcome to CSE 15L! This tutorial is going to show you how to install an account specific to the CSE 15L course account on ieng6, but could be generalized for other courses. 
+Welcome to CSE 15L! This tutorial is going to show you how to install an account specific to the CSE 15L course account on ```ieng6```, but could be generalized for other courses. 
+### Here is what will be featured in these instructions:
+- Installing Visual Studio Code
+- Remotely Connecting
+- Trying Some Commands
 ____________________________________________________________________________________________________
 
 ## Installing VScode:
