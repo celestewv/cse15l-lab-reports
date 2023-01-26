@@ -1,11 +1,16 @@
 
 Link to my [website](https://celestewv.github.io/cse15l-lab-reports)
 
-<span style="color: green">
+
 *Author:* Celeste Walstrom-Vangor 
 <br> *Data Created:* 01/11/23 
 <br> *Class:* CSE 15L 
-</span>
+
+```diff
+- This is a red colored line
++ This is a green colored line
+@@ This is a purple colored line @@
+```
 
 
 
