@@ -6,26 +6,18 @@ Link to my [website](https://celestewv.github.io/cse15l-lab-reports)
 <br> *Data Created:* 01/11/23 
 <br> *Class:* CSE 15L 
 
-```diff
-- This is a blue colored line
-+ This is a green colored line
-@@ This is a purple colored line @@
-```
-
-
 
 # Blog Post 1:
 ## How to Log into a Course-Specific Account on ```ieng6```
 
 Welcome to CSE 15L! This tutorial is going to show you how to install an account specific to the CSE 15L course account on ```ieng6```, but could be generalized for other courses. 
-```diff
-- ### Here is what will be featured in these instructions:
-```
+
+### Here is what will be featured in these instructions:
+
 - Installing Visual Studio Code
 - Remotely Connecting
 - Trying Some Commands
-____________________________________________________________________________________________________
-
+****
 ## Installing VScode:
 
 The first step is going to be installing Visual Studio Code (VSC). Follow the link https://code.visualstudio.com/, and follow the instructions to download and install it on your computer. The directions may be different for Mac vs. Window users, but once it’s installed you should have the app. Once you have installed the app, it should show up in your applications folder and you can move it to your dock (as shown in the screenshot below), if you prefer.
@@ -39,8 +31,7 @@ Here is an example of a dock with VScode in it. Fifth from the left-end is the a
 <!--vscode image-->
 <img width="1440" alt="Screen Shot 2023-01-11 at 11 20 55 AM" src="https://user-images.githubusercontent.com/122484285/211910243-02cd6916-23f8-41e9-97ed-4029da5ecdd4.png">
 To make sure you got the right version/correct app, here is what the app should look like if you open it (or something similar). If you're getting an error message reach out to one of your classmates, tutors, or TAs for assistance.
-______________________________________________________________________________________________________
-
+****
 ## Remotely Connecting:
 
 Now we want to create an account/connect to our account so we can access the CSE 15L computer system from anywhere! This is a skill that will come in hand for many jobs or other institutions. So cool right?
@@ -71,8 +62,7 @@ Put yes. Then:
 <img width="567" alt="Screen Shot 2023-01-11 at 12 11 28 PM" src="https://user-images.githubusercontent.com/122484285/211910782-d7625c2f-f1a7-4d06-8046-9c59515b357f.png">
 
 Congratulations! Now your portable computer is connected to an individual computer in the CSE Basement. From now on your computer will be refered to as the _client_ and the basement computer as the _server_.
-______________________________________________________________________________________________________
-
+****
 ## Trying Some Commands:
 
 Now that we’re in, let’s try some awesome commands!
