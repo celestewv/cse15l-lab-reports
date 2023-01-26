@@ -10,7 +10,7 @@ Link to my [website](https://celestewv.github.io/cse15l-lab-reports)
 
 
 # Blog Post 1:
-## How to log into a course-specific account on ieng6
+## How to Log into a Course-Specific Account on ```ieng6```
 
 Welcome to CSE 15L! This tutorial is going to show you how to install an account specific to the CSE 15L course account on ieng6, but could be generalized for other courses. 
 ____________________________________________________________________________________________________
