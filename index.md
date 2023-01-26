@@ -2,7 +2,7 @@
 Link to my [website](https://celestewv.github.io/cse15l-lab-reports)
 
 
-*Author:* Celeste Walstrom-Vangor
+*Author:* Celeste Walstrom-Vangor 
 *Data Created:* 01/11/23 
 *Class:* CSE 15L 
 
