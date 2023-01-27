@@ -61,10 +61,10 @@ class SearchEngine {
 
 ```
 This paired with ```Server.java``` file that was provided in class made this code execute as I expected. I wanted to make sure it worked with multiple tries/strings. I started with 'Hello'
-[Image](Helloss.png)
+![Image](Helloss.png)
 
 Then I add 'this', 'is' and 'Celeste' on three seperate tries and it add them each to a seperate line as I had hoped.
-[Image](thisisceleste.png)
+![Image](thisisceleste.png)
 ***
 
 ## Part 2
