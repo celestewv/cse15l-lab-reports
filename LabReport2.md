@@ -61,14 +61,18 @@ class SearchEngine {
 
 ```
 This paired with ```Server.java``` file that was provided in class made this code execute as I expected. I wanted to make sure it worked with multiple tries/strings. I started with 'Hello'
+
 ![Image](Helloss.png)
 
 Then I add 'this', 'is' and 'Celeste' on three seperate tries and it add them each to a seperate line as I had hoped.
+
 ![Image](thisisceleste.png)
 
-    The methods being called in each of these examples are the ```handleRequest(URI url)``` and the ```main``` method along with the functions: ```add()``, and ```get()``` immbedding into the ArrayList imports.  
-    The relevant arguments within this code are the ```if else``` statements. The first one ensures that the code will not error out when there is no message added to the end of the URL. The else statement ensures that'/add-message' is present and then after the question mark splits the 's' with the inputed string to know that the left side of the equals sign should be added to the ArrayList. I then have a for loop to ensure that the string is printed properly and then return the list.  
-    The values of any relevant fields are all converted to a string if they are added after the equal sign in the correct format. For example if a person enter '/add-message?s=1234/' '1234' will be added to the list as a string. The same goes for any other relevant field. 
+The methods being called in each of these examples are the ```handleRequest(URI url)``` and the ```main``` method along with the functions: ```add()``, and ```get()``` immbedding into the ArrayList imports.  
+
+The relevant arguments within this code are the ```if else``` statements. The first one ensures that the code will not error out when there is no message added to the end of the URL. The ```else``` statement ensures that ```/add-message``` is present and then after the question mark splits the ```s``` with the inputed string to know that the left side of the equals sign should be added to the ArrayList. I then have a ```for loop``` to ensure that the string is printed properly and then return the list.  
+
+The values of any relevant fields are all converted to a string if they are added after the equal sign in the correct format. For example if a person enter ```/add-message?s=1234/``` '1234' will be added to the list as a string. The same goes for any other relevant field. 
 
 ***
 
