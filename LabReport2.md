@@ -64,7 +64,7 @@ This paired with ```Server.java``` file that was provided in class made this cod
 [Image](Helloss.png)
 
 Then I add 'this', 'is' and 'Celeste' on three seperate tries and it add them each to a seperate line as I had hoped.
-[Image](Thisisceleste.png)
+[Image](thisisceleste.png)
 ***
 
 ## Part 2
