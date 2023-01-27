@@ -1,4 +1,4 @@
-Link to my [website](https://celestewv.github.io/cse15l-lab-reports)
+Link to my [website](https://github.com/celestewv)
 
 
 *Author:* Celeste Walstrom-Vangor 
