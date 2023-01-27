@@ -1,4 +1,5 @@
 Link to my [website](https://github.com/celestewv)
+Link to this [page](https://github.com/celestewv/cse15l-lab-reports/blob/main/LabReport2.md)
 
 
 *Author:* Celeste Walstrom-Vangor 
