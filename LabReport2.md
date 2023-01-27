@@ -105,7 +105,9 @@ Without debugging this code, this code did not produce the expected result.
 We expected the code to run on the inputed { 1, 2, 3 } and return { 3, 2, 1 }. 
 However, with the bugs, the code returned the original inpu: { 1, 2, 3 }.
 ```
-#### The Debugged Code:
+
+The Debugged Code:
+
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -118,7 +120,7 @@ static int[] reversed(int[] arr) {
 
 ```
 
-#### The Test that Does not Induce Failure:
+The Test that Does not Induce Failure:
 
 ```
 public void testReversed() {
