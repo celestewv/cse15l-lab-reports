@@ -104,7 +104,7 @@ JUnit test:
 Without debugging this code, this code did not produce the expected result. 
 We expected the code to run on the inputed { 1, 2, 3 } and return { 3, 2, 1 }. 
 However, with the bugs, the code returned the original inpu: { 1, 2, 3 }.
-
+```
 #### The Debugged Code:
 ```
 static int[] reversed(int[] arr) {
@@ -117,7 +117,9 @@ static int[] reversed(int[] arr) {
   }
 
 ```
-The Test that Does not Induce Failure:
+
+#### The Test that Does not Induce Failure:
+
 ```
 public void testReversed() {
     int input1[] = { 10, 20, 30, 40, 50 };
