@@ -1,4 +1,6 @@
-Link to my [website](https://celestewv.github.io/cse15l-lab-reports)
+Link to my [website](https://github.com/celestewv)
+
+Link to this [page](https://celestewv.github.io/cse15l-lab-reports/LabReport2.html)
 
 
 *Author:* Celeste Walstrom-Vangor 
@@ -9,7 +11,72 @@ Link to my [website](https://celestewv.github.io/cse15l-lab-reports)
 # Blog Post 2:
 
 ## Part 1
-###
+### Creating a Web Server called ```StringServer```
+
+The goal was to create a code which took in the command at the back of local or global host url:
+```/add-message?s=<string>``` and then made the string appear on the screen. It should be permanent, and continue adding words on the next line.
+Here is the code I used to make this happen:
+
+```
+import java.io.IOException;
+import java.net.URI;
+import java.util.ArrayList;
+
+class Handler implements URLHandler {
+    // The one bit of state on the server: a number that will be manipulated by
+    // various requests.
+    int num = 0;
+    ArrayList<String> strList = new ArrayList<>();
+
+    public String handleRequest(URI url) {
+        if (url.getPath().equals("/")) {
+            return String.format("List of Strings:" + strList);
+        } else {
+            System.out.println("Path: " + url.getPath());
+            if (url.getPath().contains("/add-message")) {
+                String[] parameters = url.getQuery().split("=");
+                if (parameters[0].equals("s")) {
+                    strList.add(parameters[1] + "\n");
+                    String toReturn = "";
+                    for (int i = 0; i < strList.size(); i++) {
+                        toReturn += strList.get(i);
+                    }
+                    return toReturn;
+                }
+            }
+            return "404 Not Found!";
+        }
+    }
+}
+
+class SearchEngine {
+    public static void main(String[] args) throws IOException {
+        if (args.length == 0) {
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
+    }
+}
+
+```
+This paired with ```Server.java``` file that was provided in class made this code execute as I expected. I wanted to make sure it worked with multiple tries/strings. I started with 'Hello'
+
+![Image](Helloss.png)
+
+Then I add 'this', 'is' and 'Celeste' on three seperate tries and it add them each to a seperate line as I had hoped.
+
+![Image](thisisceleste.png)
+
+The methods being called in each of these examples are the ```handleRequest(URI url)``` and the ```main``` method along with the functions: ```add()``, and ```get()``` immbedding into the ArrayList imports.  
+
+The relevant arguments within this code are the ```if else``` statements. The first one ensures that the code will not error out when there is no message added to the end of the URL. The ```else``` statement ensures that ```/add-message``` is present and then after the question mark splits the ```s``` with the inputed string to know that the left side of the equals sign should be added to the ArrayList. I then have a ```for loop``` to ensure that the string is printed properly and then return the list.  
+
+The values of any relevant fields are all converted to a string if they are added after the equal sign in the correct format. For example if a person enter ```/add-message?s=1234/``` '1234' will be added to the list as a string. The same goes for any other relevant field. 
+
 ***
 
 ## Part 2
@@ -39,7 +106,9 @@ Without debugging this code, this code did not produce the expected result.
 We expected the code to run on the inputed { 1, 2, 3 } and return { 3, 2, 1 }. 
 However, with the bugs, the code returned the original inpu: { 1, 2, 3 }.
 
-#### The Debugged Code:
+
+The Debugged Code:
+
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -51,7 +120,9 @@ static int[] reversed(int[] arr) {
   }
 
 ```
+
 The Test that Does not Induce Failure:
+
 ```
 public void testReversed() {
     int input1[] = { 10, 20, 30, 40, 50 };
