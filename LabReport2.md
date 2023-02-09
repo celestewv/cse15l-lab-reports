@@ -12,10 +12,11 @@ Link to this [page](https://celestewv.github.io/cse15l-lab-reports/LabReport2.ht
 
 ## Part 1
 ### Creating a Web Server called ```StringServer```
+
 The goal was to create a code which took in the command at the back of local or global host url:
-```/add-message?s=<string>```
-and then made the string appear on the screen. It should be permanent, and continue adding words on the next line.
+```/add-message?s=<string>``` and then made the string appear on the screen. It should be permanent, and continue adding words on the next line.
 Here is the code I used to make this happen:
+
 ```
 import java.io.IOException;
 import java.net.URI;
