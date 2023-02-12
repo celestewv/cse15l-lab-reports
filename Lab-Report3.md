@@ -64,5 +64,20 @@ written_2/non-fiction/OUP/Fletcher/ch5.txt
 ```
 *There were more lines of code, but too many to include.
 
+### Here Are 4 Interesting Command-Line Options
+Option 1)
+```find -name “<name of file?” 2>/dev/null```
+Explanation: This is used when you can remember the name of the file you want to find, but cannot remember where it is saved. It is useful when you want to cd into the correct directory for a certain file, but don’t know where it is located. The 2>/dev/null part of the command is used to silence permission errors, if there are any.
+Example 1) 
+```
+[cs15lwi23aky@ieng6-202]:skill-demo1-data:506$ find -name "Bahamas-History.txt" 2>/dev/null
+./written_2/travel_guides/berlitz2/Bahamas-History.txt
+```
+Example 2)
+```
+[cs15lwi23aky@ieng6-202]:skill-demo1-data:508$ find -name "ch10.txt" 2>/dev/null
+./written_2/non-fiction/OUP/Fletcher/ch10.txt
+./written_2/non-fiction/OUP/Kauffman/ch10.txt
+```
 
-
+Option 2)
