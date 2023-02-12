@@ -104,3 +104,37 @@ written_2/travel_guides/berlitz1/WhereToMadeira.txt: which at over 5 m (171/2 ft
 written_2/travel_guides/berlitz2/PuertoRico-WhatToDo.txt:Zoological figurines. Turtles, elephants, giraffes, and, most prevalent, images of Puerto Rico’s beloved tree frog, the coquí.
 
 ```
+
+Option 3)
+```find ~ -type <type of file>```
+
+Explanation: Useful if you are looking for all of a certain type of file within a large directory and all of its subdirectories.
+
+Example 1)
+```
+[cs15lwi23aky@ieng6-202]:skill-demo1-data:535$ find ~ -type f
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/.bash_profile
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/.bashrc
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/.cshrc
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/.kshrc
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/.locallogin
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/.login
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/.procmailrc
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/.profile
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/.zprofile
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/.zshenv
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/.zshrc
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/.cache/abrt/lastnotification
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/.modulesbegenv
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/.motd
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/.bash_history
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/wavelet/.git/info/exclude
+```
+*There were more lines of results, but too many to include.
+
+Example 2)
+```
+[cs15lwi23aky@ieng6-202]:skill-demo1-data:540$ find ~ -type f -empty
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/.motd
+
+```
