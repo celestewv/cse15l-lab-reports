@@ -10,7 +10,7 @@ Link to this [page](https://celestewv.github.io/cse15l-lab-reports/LabReport3.ht
 
 # Blog Post 3:
 
-## Researching Commands for Alternate Ways to Use the Command
+## Researching  for Alternate Ways to Use Commands
 ### Chosen Command: ```find```
 
 
