@@ -138,3 +138,57 @@ Example 2)
 /home/linux/ieng6/cs15lwi23/cs15lwi23aky/.motd
 
 ```
+
+Option 4)
+```find <path> -mtime -<number of day>```
+
+Explanation: Useful command to help locate all files that have not been modified in the specified amount of time.
+
+
+Example 1)
+```
+[cs15lwi23aky@ieng6-201]:written_2:516$ find /home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2 -mtime -7
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Abernathy
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch1.txt
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch14.txt
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch15.txt
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch2.txt
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch3.txt
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch6.txt
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch7.txt
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch8.txt
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch9.txt
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Berk
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Berk/CH4.txt
+```
+
+*There were more lines of code, but too many to include.
+
+Example 2)
+```
+[cs15lwi23aky@ieng6-201]:written_2:519$ find /home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2 -mtime -365
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Abernathy
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch1.txt
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch14.txt
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch15.txt
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch2.txt
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch3.txt
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch6.txt
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch7.txt
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch8.txt
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch9.txt
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Berk
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Berk/CH4.txt
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Berk/ch1.txt
+/home/linux/ieng6/cs15lwi23/cs15lwi23aky/skill-demo1-data/written_2/non-fiction/OUP/Berk/ch2.txt
+```
+*There were more lines of code, but too many to include.
+
+
+*Every example was found from this source: [https://www.redhat.com/sysadmin/linux-find-command](https://www.redhat.com/sysadmin/linux-find-command) found through searching 'find command-line options'*
