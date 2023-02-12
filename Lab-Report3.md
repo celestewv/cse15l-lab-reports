@@ -191,4 +191,4 @@ Example 2)
 *There were more lines of code, but too many to include.
 
 
-*Every example was found from this source: [https://www.redhat.com/sysadmin/linux-find-command](https://www.redhat.com/sysadmin/linux-find-command) found through searching 'find command-line options'*
+*Every example was found from this source: [https://www.redhat.com/sysadmin/linux-find-command](https://www.redhat.com/sysadmin/linux-find-command) found through searching 'cool ways to use the find command-line tool'*
