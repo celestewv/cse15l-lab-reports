@@ -22,8 +22,8 @@ Next, we had to Fork the repository, so we each had out own copy. Lastly, Start 
 
 ![Image](logintoIENG6.png)
 
-```diff
-> + *Keys to Press:* I first typed: ssh cs15lwi21aky@ieng6.ucsd.edu and then pressed 
+```diff +
+> *Keys to Press:* I first typed: ssh cs15lwi21aky@ieng6.ucsd.edu and then pressed 
 
 ```
 ### Step 4: Log into ieng6
