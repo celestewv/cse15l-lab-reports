@@ -21,6 +21,11 @@ Next, we had to Fork the repository, so we each had out own copy. Lastly, Start 
 
 ![Image](logintoIENG6.png)
 
-*Keys Pressed:* 
+*Keys Pressed:* 'I typed: ssh cs15lwi23aky@ieng6.ucsd.edu and then pressed <enter>'
+  Since I set up an SSH Keys for ieng6, I no longer have to enter my password which made
+  it a lot faster!
 
-`rgb(9, 105, 218)`
+### Step 4: Log into ieng6
+
+
+
