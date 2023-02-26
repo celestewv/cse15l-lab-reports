@@ -17,6 +17,9 @@ The first 3 steps were untimed but important for the context of the entire lab. 
 forks of the repository you have on your account. So forking the repository so that each student does not have duplicates.
 Next, we had to Fork the repository, so we each had out own copy. Lastly, Start the timer!
 
+I need to highlight these <mark>very important words</mark>.
+
+
 ### Step 4: Log into ieng6
 
 ![Image](logintoIENG6.png)
