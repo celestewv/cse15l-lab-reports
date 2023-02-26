@@ -40,9 +40,13 @@ Next, we had to Fork the repository, so we each had out own copy. Lastly, Start 
  ![Image](JUNITFailures.png)
  
  
-> *Keys to Press: First I ```cd lab7``` to run the tests. Then I ^C from the lab directions and ^V into the terminal javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java and pressed ```<enter>``` then I did the same with java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore but typed T and pressed ``<tab> to fill in TestListExamples and then pressed* ```<enter>```
+> *Keys to Press: First I ran ```cd lab7``` to run the tests. Then I ^C from the lab directions and ^V into the terminal javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java and pressed ```<enter>``` then I did the same with java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore but typed T and pressed ``<tab> to fill in TestListExamples and then pressed* ```<enter>```
  
  
+### Step 7: Edit the code file to fix the failing test
+
+> *Keys to Press: First I ran ```nano ListExamples.java``` which brought me to the screen shown below. Then I presssed the ```<down>``` arrow until I got to the second method and changed the second ```index1``` to an ```index2``` to debug. Then I pressed ^O to read the file and ^X to exit.*
+
 
  
 
