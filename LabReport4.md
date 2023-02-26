@@ -29,7 +29,7 @@ Next, we had to Fork the repository, so we each had out own copy. Lastly, Start 
 +<enter>
 ```
 
-<mark >Highlighted text</mark>  
+==highlighted text==
 
  
 
