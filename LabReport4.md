@@ -31,7 +31,7 @@ Next, we had to Fork the repository, so we each had out own copy. Lastly, Start 
 ![Image](gitClone.png)
 
 
-> *Keys to Press:
+> *Keys to Press:*
 > *I first typed: git clone and then pressed ^C to copy the link* *https://github.com/celestewv/lab7 and added '.git' to the end. Then I pressed* ```<enter>```
  
  
