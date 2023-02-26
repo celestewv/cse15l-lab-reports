@@ -24,13 +24,11 @@ Next, we had to Fork the repository, so we each had out own copy. Lastly, Start 
 *Keys to Press:* I first typed: ssh cs15lwi21aky@ieng6.ucsd.edu and then pressed 
 
 ### Step 4: Log into ieng6
-  
-  
+
 ```diff
-- This is a red colored line
-+ This is a green colored line
-@@ This is a purple colored line @@
++ <enter>
 ```
+ 
 
 
 
