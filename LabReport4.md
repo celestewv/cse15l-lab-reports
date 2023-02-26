@@ -35,8 +35,14 @@ Next, we had to Fork the repository, so we each had out own copy. Lastly, Start 
 > *I first typed: git clone and then pressed ^C to copy the link* *https://github.com/celestewv/lab7 and added '.git' to the end. Then I pressed* ```<enter>```
  
  
-### Step 5: Clone the fork of the repository from your Github account
-
+### Step 6: Run the tests, demonstrating that they fail
+ 
+ ![Image](JUNITFailures.png)
+ 
+ 
+> *Keys to Press: First I ```cd lab7``` to run the tests. Then I ^C from the lab directions and ^V into the terminal javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java and pressed ```<enter>``` then I did the same with java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore but typed T and pressed ``<tab> to fill in TestListExamples and then pressed* ```<enter>```
+ 
+ 
 
  
 
