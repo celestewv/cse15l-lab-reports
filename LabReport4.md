@@ -29,8 +29,7 @@ Next, we had to Fork the repository, so we each had out own copy. Lastly, Start 
 +<enter>
 ```
 
-<mark style="background-color: #FFFF00">Highlighted text</mark>  
-
+<div style="background-color: #FFFF00">Highlighted text</div>
  
 
 
