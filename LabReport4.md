@@ -23,10 +23,21 @@ Next, we had to Fork the repository, so we each had out own copy. Lastly, Start 
 ![Image](logintoIENG6.png)
 
 ```diff +
-> *Keys to Press:* I first typed: ssh cs15lwi21aky@ieng6.ucsd.edu and then pressed 
+*Keys to Press:* I first typed: ssh cs15lwi21aky@ieng6.ucsd.edu and then pressed <enter>
 
 ```
-### Step 4: Log into ieng6
+
+### Step 5: Clone the fork of the repository from your Github account
+
+![Image](gitClone.png)
+
+```diff +
+*Keys to Press:* I first typed: git clone and then pressed ^C to copy the link https://github.com/celestewv/lab7 and added '.git' to the end. Then I pressed <enter>.
+
+```
+
+
+
 
 
 
