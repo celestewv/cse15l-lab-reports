@@ -19,3 +19,4 @@ Next, we had to Fork the repository, so we each had out own copy. Lastly, Start 
 
 ### Step 4: Log into ieng6
 
+![Image](logintoIENG6.png)
