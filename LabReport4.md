@@ -22,7 +22,7 @@ Next, we had to Fork the repository, so we each had out own copy. Lastly, Start 
 
 ![Image](logintoIENG6.png)
 
-> *Keys to Press:* I first typed: ssh cs15lwi21aky@ieng6.ucsd.edu and then pressed <enter>
+> *Keys to Press:* I first typed: ssh cs15lwi21aky@ieng6.ucsd.edu and then pressed ```<enter>```
 
 
 
@@ -32,10 +32,11 @@ Next, we had to Fork the repository, so we each had out own copy. Lastly, Start 
 
 
 > *Keys to Press:*
-> I first typed: git clone and then pressed ^C to copy the link https://github.com/celestewv/lab7 and added '.git' to the end. Then I pressed <enter>
+> I first typed: git clone and then pressed ^C to copy the link https://github.com/celestewv/lab7 and added '.git' to the end. Then I pressed ```<enter>```
  
  
- 
+### Step 5: Clone the fork of the repository from your Github account
+
 
  
 
