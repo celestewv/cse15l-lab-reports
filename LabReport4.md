@@ -52,7 +52,9 @@ Next, we had to Fork the repository, so we each had out own copy. Lastly, Start 
  
  ### Step 8: Run the tests, demonstrating that they now succeed
 
-> *Keys to Press: First I pressed* <up><up><up><up><up><enter>, <up><up><up><up><up><enter> *because I had already typed the junit commands to run the tests earlier.*
+> *Keys to Press: First I pressed* ```<up><up><up><up><up><enter>, <up><up><up><up><up><enter>``` *because I had already typed the junit commands to run the tests earlier.*
+ 
+ ![Image](JUNITSuccess.png)
 
 
 
