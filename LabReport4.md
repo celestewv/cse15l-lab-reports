@@ -35,12 +35,14 @@ Next, we had to Fork the repository, so we each had out own copy. Lastly, Start 
 > *I first typed: git clone and then pressed ^C to copy the link* *https://github.com/celestewv/lab7 and added '.git' to the end. Then I pressed* ```<enter>```
  
  
+ 
 ### Step 6: Run the tests, demonstrating that they fail
  
  ![Image](JUNITFailures.png)
  
  
 > *Keys to Press: First I ran ```cd lab7``` to run the tests. Then I ^C from the lab directions and ^V into the terminal javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java and pressed ```<enter>``` then I did the same with java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore but typed T and pressed ``<tab> to fill in TestListExamples and then pressed* ```<enter>```
+ 
  
  
 ### Step 7: Edit the code file to fix the failing test
@@ -55,7 +57,14 @@ Next, we had to Fork the repository, so we each had out own copy. Lastly, Start 
 > *Keys to Press: First I pressed* ```<up><up><up><up><up><enter>, <up><up><up><up><up><enter>``` *because I had already typed the junit commands to run the tests earlier.*
  
  ![Image](JUNITSuccess.png)
+ 
+ 
+ ### Step 9: Commit and push the resulting change to your Github account
 
+ > *Keys to Press: I typed the following commands in the following order* ```git add .```, then ```git commit -m "Updated"```, and then ```git push```
+ 
+
+![Image](gitClone.png)
 
 
 
