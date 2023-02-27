@@ -64,7 +64,7 @@ Next, we had to Fork the repository, so we each had out own copy. Lastly, Start 
  > *Keys to Press: I typed the following commands in the following order* ```git add .```, then ```git commit -m "Updated"```, and then ```git push```
  
 
-![Image](gitClone.png)
+![Image](gitcommit.png)
 
 
 
