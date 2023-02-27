@@ -47,8 +47,12 @@ Next, we had to Fork the repository, so we each had out own copy. Lastly, Start 
 
 > *Keys to Press: First I ran ```nano ListExamples.java``` which brought me to the screen shown below. Then I presssed the ```<down>``` arrow until I got to the second method and changed the second ```index1``` to an ```index2``` to debug. Then I pressed ^O to read the file and ^X to exit.*
 
-
+![Image](nano.png)
  
+ 
+ ### Step 8: Run the tests, demonstrating that they now succeed
+
+> *Keys to Press: First I pressed* <up><up><up><up><up><enter>, <up><up><up><up><up><enter> *because I had already typed the junit commands to run the tests earlier.*
 
 
 
