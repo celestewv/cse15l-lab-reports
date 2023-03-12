@@ -40,6 +40,14 @@ What was produced:
 Option 1)
 ```less -F <filename>```
 
-Explanation: This is used when you can remember the name of the file you want to find, but cannot remember where it is saved. It is useful when you want to cd into the correct directory for a certain file, but don’t know where it is located. The 2>/dev/null part of the command is used to silence permission errors, if there are any.
+Explanation: This command is used to view the contents of a file in the terminal using the "less" command. 
 
-Example 1) 
+Example 1) ```less -F written_2/```
+
+![Image](less-F.png)
+
+Example 2) ```less -F written_2/non-fiction/OUP/Berk/```
+
+![Image](12345.png)
+
+
