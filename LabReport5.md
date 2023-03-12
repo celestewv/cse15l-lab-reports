@@ -66,6 +66,19 @@ Example 2) ```less -N written_2/non-fiction/OUP/Berk/```
 
 ![Image](berk.png)
 
+Option 3)
+```less <filename> <filename>```
+
+Explanation: This command allows you to view and open more than one file at a time and keep track of which file you are in. Can be useful for editting multiple files or reading more than one file with one command.
+
+Example 1) ```less ch2.txt ch1.txt```
+
+![Image](2files.png)
+
+Example 2) ```less written_2/non-fiction/OUP/Berk written_2/non-fiction/OUP/Fletcher```
+
+![Image](fletcher.png)
+
 
 
 
