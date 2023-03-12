@@ -15,9 +15,14 @@ Link to this [page](https://celestewv.github.io/cse15l-lab-reports/LabReport3.ht
 
 ### Background Information on the ```find``` Command:
 
-According to the Linux manual page the ```find``` command “searches the directory tree rooted at each given starting-point by evaluating the given expression from left to right, according to the rules of precedence (see section OPERATORS), until the outcome is known (the left hand side is false for and operations, true for or), at which point find moves on to the next file name. If no starting-point is specified, `.' is assumed.”
+According to the Linux manual page the ```find``` command:
+       "Less is a program similar to more(1), but which allows backward
+       movement in the file as well as forward movement.  Also, less
+       does not have to read the entire input file before starting, so
+       with large input files it starts up faster than text editors like
+       vi(1).”
 
-*Source: [https://man7.org/linux/man-pages/man1/find.1.html](https://man7.org/linux/man-pages/man1/find.1.html) found through searching 'find command-line options'*
+*Source: [https://man7.org/linux/man-pages/man1/find.1.html](https://man7.org/linux/man-pages/man1/less.1.html)) found through searching 'find command-line options'*
 
 Regular Use of the ```find``` command:
 
