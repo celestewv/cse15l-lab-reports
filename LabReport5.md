@@ -1,6 +1,6 @@
 Link to my [website](https://github.com/celestewv)
 
-Link to this [page](https://celestewv.github.io/cse15l-lab-reports/LabReport3.html)
+Link to this [page](https://celestewv.github.io/cse15l-lab-reports/LabReport5.html)
 
 
 *Author:* Celeste Walstrom-Vangor 
@@ -79,6 +79,14 @@ Example 2) ```less written_2/non-fiction/OUP/Berk written_2/non-fiction/OUP/Flet
 
 ![Image](fletcher.png)
 
+Option 4)
+```less --help```
+
+Explanation: While I can only include one example for this option, I think it is extremely useful to know because it encompasses all the possibilities for the ```less``` command.
+
+Example) ```less --help```
+
+![Image](help.png)
 
 
 
