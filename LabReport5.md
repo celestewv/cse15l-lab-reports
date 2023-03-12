@@ -10,7 +10,7 @@ Link to this [page](https://celestewv.github.io/cse15l-lab-reports/LabReport3.ht
 
 # Blog Post 5:
 
-## “Favorite Lab”
+## Favorite Lab
 
 In this lab report, I will be re-exploring my favorite Lab, Lab 3. In that lab report, I found alternate ways to use the command ```find```. 
 In this lab report, I am going to explore the ```less``` command.
