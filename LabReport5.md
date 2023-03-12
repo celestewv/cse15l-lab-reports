@@ -19,7 +19,7 @@ In this lab report, I am going to explore the ```less``` command.
 
 ### Background Information on the ```less``` Command:
 
-According to the Linux manual page the ```find``` command:
+According to the Linux manual page the ```less``` command:
        "Less is a program similar to more(1), but which allows backward
        movement in the file as well as forward movement.  Also, less
        does not have to read the entire input file before starting, so
@@ -31,5 +31,15 @@ According to the Linux manual page the ```find``` command:
 Regular Use of the ```less``` command:
 
 What I typed: ```less written_1/```
+
 What was produced:
+
 ![Image](lessW.png)
+
+### Here Are a Couple Interesting Command-Line Options
+Option 1)
+```less -F <filename>```
+
+Explanation: This is used when you can remember the name of the file you want to find, but cannot remember where it is saved. It is useful when you want to cd into the correct directory for a certain file, but don’t know where it is located. The 2>/dev/null part of the command is used to silence permission errors, if there are any.
+
+Example 1) 
