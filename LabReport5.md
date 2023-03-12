@@ -37,6 +37,7 @@ What was produced:
 ![Image](lessW.png)
 
 ### Here Are a Couple Interesting Command-Line Options
+
 Option 1)
 ```less -F <filename>```
 
@@ -50,4 +51,33 @@ Example 2) ```less -F written_2/non-fiction/OUP/Berk/```
 
 ![Image](12345.png)
 
+Option 2)
+```less -N <filename>```
+
+Explanation: This command is used when wanting to see the specified text file with line numbers included. I comes in handy when reviewing long code
+
+Example 1) ```less -N written_2/non-fiction/OUP/Berk/ch2.txt```
+
+![Image](wholepage.png)
+
+*There were more lines of code that could not fit into the screen*
+
+Example 2) ```less -N written_2/non-fiction/OUP/Berk/```
+
+![Image](berk.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Source for all of these options: [Works Cited](https://phoenixnap.com/kb/less-command-in-linux)
 
